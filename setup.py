@@ -22,7 +22,7 @@ setup(name='quanfima',
       packages=['quanfima', 'docs'],
       python_requires='>=2.6,<3',
       install_requires=[
-          'matplotlib==2.0.2',
+          'matplotlib>=3.5',
           'numpy>=1.13.3',
           'pandas>=0.19.2',
           'scikit-image>=0.12.3',
